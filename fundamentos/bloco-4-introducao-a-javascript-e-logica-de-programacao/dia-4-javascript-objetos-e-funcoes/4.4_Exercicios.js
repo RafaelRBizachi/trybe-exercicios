@@ -11,5 +11,9 @@ info.recorrente = "Sim";
 console.log(info); 
 //3
 for(let i in info){
-console.log(info[i]);
+console.log(i );
 }
+//4
+for(let i in info){
+    console.log(info[i]);
+    }

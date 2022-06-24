@@ -9,3 +9,7 @@ let info = {
 info["recorrente"] = info.recorrente;
 info.recorrente = "Sim";
 console.log(info); 
+//3
+for(let i in info){
+console.log(info[i]);
+}
